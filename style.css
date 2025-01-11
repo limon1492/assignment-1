@@ -1,8 +1,9 @@
 body {
+    
     margin: 20px 160px;
     background-color: #F1F1F3;
 }
-
+  
 
 .btn-primary {
 
@@ -13,6 +14,10 @@ body {
     font-size: 18px;
     font-weight: 600px;
     border: none;
+}
+.btn-primary:hover{
+    background-color: blue;
+    color: #FFFFFF;
 }
 
 .saction-title {
@@ -36,6 +41,7 @@ body {
 .satellite_img {
     border-radius: 16px;
 }
+
 
 /* nav-styles */
 nav {
@@ -62,6 +68,42 @@ nav {
     text-align: center;
     background-color: white;
     /* text-decoration: none; */
+}
+.btn:hover{
+    background-color: chartreuse;
+    color: #FFFFFF;
+}
+.btn_futher{
+    
+    background-color: #09A15C;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600px;
+    border: none;
+    transition: 0.8s;
+}
+.btn_futher:hover{
+    background-color: crimson;
+    color: #FFFFFF;
+
+}
+
+.btn_futher2{
+    
+    background-color: #FFC239;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600px;
+    border: none;
+   transition: .5;
+}
+.btn_futher2:hover{
+    background-color: aqua;
+    color: #FFFFFF;
 }
 
 /* banner-styles */
@@ -218,8 +260,10 @@ nav {
     align-items: center;
     margin-top: 16px;
 }
-
-
+.done_button :hover{
+    background-color: #FFC239;
+    color: #FFFFFF;
+} 
 
 .subscribe{
     background-color: #C6E4D6;
@@ -233,6 +277,7 @@ nav {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border: none;
+    
 }
 
 .submit_button{
@@ -244,6 +289,24 @@ nav {
     border: none;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    transition: 0.8s;
 }
+.submit_button:hover{
+    background-color: red;
+    color: #FFFFFF;
+}
+
+
+.footer{
+    text-align: center;
+   padding: 50px;
+}
+.icon img{
+   margin: 0 10px;
+}
+.footer hr{
+    width: 75%;
+}
+
 
 
