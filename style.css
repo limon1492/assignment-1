@@ -1,0 +1,143 @@
+body{
+    margin: 20px 160px;
+}
+
+
+.btn-primary{
+    
+    background-color: #006A50;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600px;
+    border: none;
+}
+
+.saction-title{
+    
+    font-size: 40px;
+    font-weight: bold;
+    color:#0E0E0E ;
+}
+.heading{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.pragraph{
+    font-size: 16px;
+    color: #0E0E0E;
+}
+.satellite_img{
+    border-radius: 16px;
+}
+/* nav-styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 10px 160px; */
+   
+}
+.nav-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.btn{
+    width: 116px;
+    height: 52px;
+   color: #006A50;
+   border: 1px solid #006A50;
+   border-radius: 8px;
+   padding: 15px 15px;
+   text-align: center;
+   background-color: white;
+   /* text-decoration: none; */
+}
+/* banner-styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    /* margin: 20px 160px; */
+    border-radius: 24px;
+    padding: 40px 59.99px;
+}
+.banner-greeting{
+    font-size: 24px;
+    color: #757575;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.header-picture{
+    width: 470px;
+    height: 400px;
+}
+
+.skill{
+    padding: 24px 24px;
+    border-radius: 16px;
+    box-shadow: 10px 10px 50px 10px #F1F1F3;
+}
+
+.skill-contenar{
+    display: flex;
+    gap: 24px;
+}
+
+.section-skills{
+    display: flex;
+    gap: 24px;
+    
+}
+
+ 
+ .saction-skill1{
+    padding: 32px 32px;
+    border-radius: 16px;
+    background-color: #5490F5;
+    box-shadow: 0px 6px 50px 0px #F1F1F3;  
+ }
+ .saction-skill2{
+    padding: 32px 32px;
+    border-radius: 16px;
+    background-color: #C6E4D6;
+    box-shadow: 0px 6px 50px 0px #F1F1F3;  
+ }
+ .saction-skill3{
+    padding: 32px 32px;
+    border-radius: 16px;
+    background-color: #FFC239;
+    box-shadow: 0px 6px 50px 0px #F1F1F3;  
+ }
+ .dr-younus-sir{
+    padding: 24px 48px;
+    border-radius: 16px;
+    margin-top: 32px;
+    box-shadow:10px 10px 50px 10px #F1F1F3; 
+ }
+
+
+
+ .contant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 32px;
+    padding: 48px;
+    border-radius: 16px;
+    box-shadow: 10px 10px 50px 10px #F1F1F3;
+    margin-top: 24px;
+    margin-bottom: 24px;
+ }
+
+
+ .time_date{
+    color: #0E0E0E;
+    font-size: 16px;
+ }
