@@ -185,6 +185,7 @@ nav {
 
 
 .contant {
+    background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -216,6 +217,7 @@ nav {
 }
 
 .main_des {
+    text-align: center;
     text-align: center;
     opacity: 70%;
 }
@@ -268,11 +270,16 @@ nav {
 .subscribe{
     background-color: #C6E4D6;
     border-radius: 10px;
-    padding: 80px 265px;
+    padding: 80px 200px;
     text-align: center;
+}
+.sub_btn{
+    display: flex;
+    align-items: center;
 }
 
 .email_input{
+    width: 100%;
     padding: 18px 20px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
