@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
 body {
-    
+    font-family: "Open Sans", serif;
+
     margin: 20px 160px;
     background-color: #F1F1F3;
 }
@@ -307,6 +312,8 @@ nav {
 .footer{
     text-align: center;
    padding: 50px;
+   box-shadow: 0 3px 10px 0px white ;
+   margin-top: 40px;
 }
 .icon img{
    margin: 0 10px;
